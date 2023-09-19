@@ -1,0 +1,54 @@
+<!DOCTYPE html><!--DOCTYPE宣言+Hyper Text Markup Language-->
+<html lang="ja"><!--言語-->
+<head>
+    <!--metaタグWebサイト情報を伝達-->
+    <meta charset="UTF-8"><!--characterset 文字コードを指定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--レスポンシブデザインを作成する際に使用
+    width=device-width は「Webサイトの表示の幅をデバイスの幅に
+    initial-scale=1.0 は「ズーム率をそのままのズーム率の指定の1.0に
+    -->
+    <title>Mintsonのプロフィールページ</title>
+    <meta name="description" content=Mintsonのプロフィールを詳しく紹介します!! /><!--content="Webページの説明文"-->
+    
+    <style>
+        h1{
+            font-size: 32px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .text{
+            margin: 16px 0 0; /*外側の余白*/
+            /*1つ上下左右　2つ上下：左右　３つ上：右左：下　４つ上：右：下：左*/
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .heading-1{
+            font-size: 32px;
+            font-style: normal;
+        }
+
+        .heading-2{
+            font-size: 24px;
+        }
+
+        .heading-3{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading-1">Profile</h1>
+    <img src="./images/profile.png"alt="Mintsonのプロフィール画像" width="300" height="300">
+    <!--(./)同じファイルの場所から/(../)ひとつ前のフォルダ-->
+    <h2 class="heading-2">Mintson</h2>
+    <p class="text">HTML・CSSの勉強中です。</p>
+    <h3 class="heading-3">自己紹介</h3>
+    <p class="text">最近大学生になりました。</p>
+
+
+    <p class="text"><a href="./links.html">Linksページへ</a></p>
+
+</body>
+</html>
